@@ -29,13 +29,13 @@ const Navbar = () =>{
 						</Link>
 					</li>
 					<li className="nav-menu-item">
-						<Link to='/features' className="nav-menu-link" onClick={closeMobileMenu} >
-							Features
+						<Link to='/pricing' className="nav-menu-link" onClick={closeMobileMenu} >
+							Pricing
 						</Link>
 					</li>
 					<li className="nav-menu-item">
-						<Link to='/pricing' className="nav-menu-link" onClick={closeMobileMenu} >
-							Pricing
+						<Link to='/features' className="nav-menu-link" onClick={closeMobileMenu} >
+							Features
 						</Link>
 					</li>
 				</ul>
