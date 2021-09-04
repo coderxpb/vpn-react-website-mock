@@ -4,8 +4,8 @@
 
 	height: 80px;
   z-index: 5;
-
-  background: #11052C;
+	
+  background: #280253;
   font-size: 1.2rem;
 }
 
@@ -53,7 +53,7 @@
 		transition: all 0.5s ease;
 	
 		&.active {
-			background: #3D087B;
+			background: #11052C;
 			left: 0;
 			transition: all 0.6s ease;
 			z-index: 1;
@@ -66,7 +66,7 @@
 
 	@media screen and (max-width:600px){
 		width: 100%;
-		border-bottom: #11052C 5px solid;
+		border-bottom: #ffffff 1px solid;
 	}
 	&:hover{
 		background: #F43B86;
@@ -84,6 +84,8 @@
 
 	@media screen and (max-width:600px){
     text-align: center;
+		font-size: 1.5rem;
+		font-weight: 500;
     padding: 2rem;
 		padding-left: 3rem;
 		width: 80%;
