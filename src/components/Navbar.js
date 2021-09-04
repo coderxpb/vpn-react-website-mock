@@ -1,4 +1,3 @@
-import styled from "styled-components";
 import React, {useState} from "react";
 import {Link} from "react-router-dom";
 import 'boxicons';
@@ -8,12 +7,13 @@ const Navbar = () =>{
 	const [menuOpen, setMenuOpen] = useState(false);
 
 	const handleMenuClick = () => setMenuOpen(!menuOpen);
+	const closeMobileMenu = () => setMenuOpen(false);
 
 	return (
 		<div className="navbar">
 			<div className="navbar-container">
 
-				<Link to='/' className="navbar-logo">
+				<Link to='/' className="navbar-logo" onClick={closeMobileMenu}>
 					<box-icon type='solid' name='low-vision' color='#F43B86' size="40px"></box-icon>
 					NoVision
 				</Link>
@@ -24,17 +24,17 @@ const Navbar = () =>{
 
 				<ul className={menuOpen ? 'nav-menu active' : 'nav-menu'}>
 					<li className="nav-menu-item">
-						<Link to='/' className="nav-menu-link">
+						<Link to='/' className="nav-menu-link" onClick={closeMobileMenu} >
 							Home
 						</Link>
 					</li>
 					<li className="nav-menu-item">
-						<Link to='/features' className="nav-menu-link">
+						<Link to='/features' className="nav-menu-link" onClick={closeMobileMenu} >
 							Features
 						</Link>
 					</li>
 					<li className="nav-menu-item">
-						<Link to='/pricing' className="nav-menu-link">
+						<Link to='/pricing' className="nav-menu-link" onClick={closeMobileMenu} >
 							Pricing
 						</Link>
 					</li>
