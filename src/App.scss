@@ -11,8 +11,19 @@
 	font-weight: 700;
 }
 
+a{
+	text-decoration: none;
+	color: black;
+}
+
 body{
 	background-color: rgb(252, 252, 252);
+}
+
+.App{
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
 
 .pricing{
@@ -22,10 +33,37 @@ body{
 	display: flex;
 	justify-content: center;
 	gap: 40px;
-
+	
 	@media screen and(max-width:800px){
 		flex-direction: column;
 		align-items: center;
 		padding-top: 80px;
 	}
 }
+
+.footer-filler{
+	flex: 1;
+}
+
+footer{
+
+	padding: 16px;
+	background-color: rgb(240, 240, 240);
+	display: flex;
+	justify-content:space-around;
+
+	p{
+		font-weight: 400;
+	}
+
+	@media screen and(max-width:600px) {
+		flex-direction: column;
+		align-items:center;
+	}
+}
+
+.me{
+	align-self: center;
+	font-size: 1.1rem;
+}
+
