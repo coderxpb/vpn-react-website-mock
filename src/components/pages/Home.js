@@ -1,7 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import MainCard from '../MainCard';
-import './Home.scss';
 import mtvImg from '../../images/mtv.svg';
 import wfaImg from '../../images/wfa.svg';
 import anaImg from '../../images/ana.svg';

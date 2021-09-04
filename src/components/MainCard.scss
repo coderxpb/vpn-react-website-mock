@@ -1,4 +1,4 @@
-.main-card{
+.main-card-container{
 	display: flex;
 	flex-direction: column;
 	background-color: rgb(255, 255, 255);
@@ -6,7 +6,7 @@
 	align-items: center;
 
 	&--reverse{
-		@extend .main-card;
+		@extend .main-card-container;
 		background-color: #3D087B;
 
 		p{
