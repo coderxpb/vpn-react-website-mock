@@ -3,9 +3,12 @@
 *::before,
 *::after{
 	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 	font-family: 'IBM Plex Sans Arabic', sans-serif;
-	font-weight: 400;
+	font-weight: 800;
 }
+
 body{
-	background: blueviolet;
+
 }
