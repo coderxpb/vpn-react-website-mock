@@ -7,13 +7,13 @@ import ScrollToTop from './ScrollToTop'
 
 function App() {
   return (
-		<Router>
+		<Router basename={process.env.PUBLIC_URL}>
 			<ScrollToTop/>
 			<div className="App">
 				<Navbar />
 				<Switch>
-					<Route path='/' exact component={Home}/>
-					<Route path='/pricing' exact component={Pricing}/>
+					<Route exact path='/'  component={Home}/>
+					<Route exact path='/pricing'  component={Pricing}/>
 				</Switch>
 
 				<div className="footer-filler">
