@@ -83,12 +83,12 @@
   text-decoration: none;
 
 	@media screen and (max-width:620px){
+		padding: 2rem;
+		padding-left: 3rem;
+		width: 80%;
     text-align: center;
 		font-size: 1.5rem;
 		font-weight: 500;
-    padding: 2rem;
-		padding-left: 3rem;
-		width: 80%;
 
 		&:hover {
     	transform: scale(1.2) translateX(45px);
