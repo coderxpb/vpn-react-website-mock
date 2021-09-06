@@ -10,13 +10,12 @@ import servers from '../../images/features/servers.svg';
 const Features = () => {
 	return (
 		<div className="features">
-			<FeatureCard img={servers} features={['Multiple high speed servers', '150+ servers in 50+ countries*', 'Speed upto 1Gbps Up and Down', 'Encrypted servers']} />
-			<FeatureCard img={devices} features={['Multi device support', 'Upto 3 devices per user', 'Sync settings across all']} />
-			<FeatureCard img={money} features={['Affordable plans', 'Starting at $0.99', 'Discounts for students',]} />
-			<FeatureCard img={finger} features={['Secure your biometrics', 'Protect yourself from id theft', 'Advanced security features', 'Running out of words']} />
-			<FeatureCard img={configure} features={['Wow look at these switches', 'So cool but what', 'Do they actually do',]} />
-			<FeatureCard img={protect} features={['Seems like its raining again', 'Good thing I have my umbrella', 'Protecting me from rain like', 'How HideMe will protect my data']} />
-
+			<FeatureCard img={servers} alt="globe with multiple locations" features={['Multiple high speed servers', '150+ servers in 50+ countries*', 'Speed upto 1Gbps Up and Down', 'Encrypted servers']} />
+			<FeatureCard img={devices} alt="multiple devices" features={['Multi device support', 'Upto 3 devices per user', 'Sync settings across all']} />
+			<FeatureCard img={money} alt="man saving money" features={['Affordable plans', 'Starting at $0.99', 'Discounts for students',]} />
+			<FeatureCard img={finger} alt="your biometrics" features={['Secure your biometrics', 'Protect yourself from id theft', 'Advanced security features', 'Running out of words']} />
+			<FeatureCard img={configure} alt="configure settings" features={['Wow look at these switches', 'So cool but what', 'Do they actually do',]} />
+			<FeatureCard img={protect} alt="under umbrella in rain" features={['Seems like its raining again', 'Good thing I have my umbrella', 'Protecting me from rain like', 'How HideMe will protect my data']} />
 		</div>
 	);
 }

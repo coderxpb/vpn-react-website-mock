@@ -44,16 +44,16 @@ body{
 
 .features{
 	display: flex;
-	gap: 5vw;
 	justify-content: space-around;
-	padding: 40px 20px;
 	flex-wrap: wrap;
+	gap: 5vw;
 	max-width: 1400px;
+	padding: 60px 20px;
 	margin: 0 auto;
 
 	@media screen and(min-width:1400px){
-	 padding: 40px 40px;
 	 gap: 80px;
+	 padding: 60px 40px;
 	}
 }
 .footer-filler{
