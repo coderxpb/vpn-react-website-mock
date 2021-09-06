@@ -1,23 +1,29 @@
 {
   "files": {
-    "main.css": "/vpn-react-website-mock/static/css/main.7183919c.chunk.css",
-    "main.js": "/vpn-react-website-mock/static/js/main.65e2c971.chunk.js",
-    "main.js.map": "/vpn-react-website-mock/static/js/main.65e2c971.chunk.js.map",
+    "main.css": "/vpn-react-website-mock/static/css/main.6439a82e.chunk.css",
+    "main.js": "/vpn-react-website-mock/static/js/main.d0be97a9.chunk.js",
+    "main.js.map": "/vpn-react-website-mock/static/js/main.d0be97a9.chunk.js.map",
     "runtime-main.js": "/vpn-react-website-mock/static/js/runtime-main.9590fab0.js",
     "runtime-main.js.map": "/vpn-react-website-mock/static/js/runtime-main.9590fab0.js.map",
     "static/js/2.60790943.chunk.js": "/vpn-react-website-mock/static/js/2.60790943.chunk.js",
     "static/js/2.60790943.chunk.js.map": "/vpn-react-website-mock/static/js/2.60790943.chunk.js.map",
     "index.html": "/vpn-react-website-mock/index.html",
-    "static/css/main.7183919c.chunk.css.map": "/vpn-react-website-mock/static/css/main.7183919c.chunk.css.map",
+    "static/css/main.6439a82e.chunk.css.map": "/vpn-react-website-mock/static/css/main.6439a82e.chunk.css.map",
     "static/js/2.60790943.chunk.js.LICENSE.txt": "/vpn-react-website-mock/static/js/2.60790943.chunk.js.LICENSE.txt",
     "static/media/ana.bcfa1dc4.svg": "/vpn-react-website-mock/static/media/ana.bcfa1dc4.svg",
+    "static/media/configure.817633d7.svg": "/vpn-react-website-mock/static/media/configure.817633d7.svg",
+    "static/media/devices.80df0b54.svg": "/vpn-react-website-mock/static/media/devices.80df0b54.svg",
+    "static/media/finger.0591754d.svg": "/vpn-react-website-mock/static/media/finger.0591754d.svg",
+    "static/media/money.8baa5561.svg": "/vpn-react-website-mock/static/media/money.8baa5561.svg",
     "static/media/mtv.01e51d63.svg": "/vpn-react-website-mock/static/media/mtv.01e51d63.svg",
+    "static/media/protect.9c77fe63.svg": "/vpn-react-website-mock/static/media/protect.9c77fe63.svg",
+    "static/media/servers.cd77886b.svg": "/vpn-react-website-mock/static/media/servers.cd77886b.svg",
     "static/media/wfa.5227d71e.svg": "/vpn-react-website-mock/static/media/wfa.5227d71e.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.9590fab0.js",
     "static/js/2.60790943.chunk.js",
-    "static/css/main.7183919c.chunk.css",
-    "static/js/main.65e2c971.chunk.js"
+    "static/css/main.6439a82e.chunk.css",
+    "static/js/main.d0be97a9.chunk.js"
   ]
 }
