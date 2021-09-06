@@ -46,14 +46,14 @@ body{
 	display: flex;
 	gap: 5vw;
 	justify-content: space-around;
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding: 40px 20px;
 	flex-wrap: wrap;
-	max-width: 1200px;
+	max-width: 1400px;
 	margin: 0 auto;
 
-	@media screen and(min-width:1200px){
-	 gap: 100px;
+	@media screen and(min-width:1400px){
+	 padding: 40px 40px;
+	 gap: 80px;
 	}
 }
 .footer-filler{

@@ -1,8 +1,8 @@
 import React from 'react';
 import MainCard from '../MainCard';
-import mtvImg from '../../images/mtv.svg';
-import wfaImg from '../../images/wfa.svg';
-import anaImg from '../../images/ana.svg';
+import mtvImg from '../../images/home/mtv.svg';
+import wfaImg from '../../images/home/wfa.svg';
+import anaImg from '../../images/home/ana.svg';
 const Home = () =>{
 	return(
 		<div className="home">

@@ -3,11 +3,15 @@
 .feature-card-container{
 	@extend .pricing-card-container;
 	display: flex;
+	padding: 0px;
 	flex-direction: column;
 	align-items: center;
-	border-radius: 6px;
-	width: 220px;
+	box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.336);
+
+	width: 300px;
 	background: #F43B86;
+
+
 	color: rgb(255, 255, 255);
 
 	&:hover{
@@ -22,19 +26,24 @@
 	}
 
 	@media screen and(min-width:1200px){
-		transform: scale(1.3);
+		transform: scale(1.2);
 		&:hover{
-			transform: scale(1.5);
+			transform: scale(1.4);
 		}
 	}
 }
 
 .feature-card-image{
-	width: 200px;
+	margin-top: -1px;
+	background: white;
+	width: 300px;
 	height: 200px;
+	object-fit: fill;
 }
 
 .feature-card-features{
+	padding: 10px;
+	align-self: flex-start;
 	font-size: 1.1rem;
 	li{
 		font-weight: 200;
