@@ -15,7 +15,7 @@ const Navbar = () =>{
 
 				<Link to='/' className="navbar-logo" onClick={closeMobileMenu}>
 					<box-icon type='solid' name='low-vision' color='#F43B86' size="40px"></box-icon>
-					NoVision
+					HideMe
 				</Link>
 
 				<div className='menu-icon' onClick={handleMenuClick}>

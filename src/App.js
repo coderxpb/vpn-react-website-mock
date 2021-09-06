@@ -1,9 +1,10 @@
 import './App.scss';
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
-import Navbar from './components/Navbar'
-import Home from './components/pages/Home'
-import Pricing from './components/pages/Pricing'
-import ScrollToTop from './ScrollToTop'
+import Navbar from './components/Navbar';
+import Home from './components/pages/Home';
+import Pricing from './components/pages/Pricing';
+import Features from './components/pages/Features';
+import ScrollToTop from './ScrollToTop';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
 				<Switch>
 					<Route exact path='/'  component={Home}/>
 					<Route exact path='/pricing'  component={Pricing}/>
+					<Route exact path='/features' component={Features}/>
 				</Switch>
 
 				<div className="footer-filler">

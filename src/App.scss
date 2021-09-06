@@ -42,6 +42,20 @@ body{
 	}
 }
 
+.features{
+	display: flex;
+	gap: 5vw;
+	justify-content: space-around;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	flex-wrap: wrap;
+	max-width: 1200px;
+	margin: 0 auto;
+
+	@media screen and(min-width:1200px){
+	 gap: 100px;
+	}
+}
 .footer-filler{
 	flex: 1;
 }
